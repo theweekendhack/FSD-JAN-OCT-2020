@@ -1,5 +1,5 @@
 # FSD2020
-## Class of Full Stack Development-
+## WEB PROGRAMMING I (Forms)
 This project is a basic HTML file overviewing forms & its' number of diferent form controls. We covered things like how to create the following :
 * A label 
 * Textbox
