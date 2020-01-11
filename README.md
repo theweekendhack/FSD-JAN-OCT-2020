@@ -1,5 +1,5 @@
 # FSD2020
-## WEB PROGRAMMING I (Container Elements-Both Semantic and Non-Semantic
+## WEB PROGRAMMING I (Container Elements-Both Semantic and Non-Semantic)
 This project explores container elements,specifically structural elemetns that allow you to break up your page into various sections.
 See the following :
 * header
@@ -24,7 +24,7 @@ See the following :
 * section
  * The HTML <section> element represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document.
 * div
-  * The HTML Content Division element (<div>) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.
+  * The HTML Content Division element  is the generic container for flow content. It has no effect on the content or layout until styled using CSS.
 * span
- * The HTML Content Division element (<div>) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.
+ * The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes).
 
