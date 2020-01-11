@@ -1,6 +1,6 @@
 # FSD2020
 ## WEB PROGRAMMING I (Forms)
-This project is a basic HTML file overviewing forms & its' number of diferent form controls. We covered things like how to create the following :
+This project explores forms & various form controls,specifically covering the following :
 * A label 
 * Textbox
 * Radio buttons 
