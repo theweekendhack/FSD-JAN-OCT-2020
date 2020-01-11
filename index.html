@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms</title>
+    </head>
+    <body>
+        
+        <!--This always you to create a form to capture data from the 
+        user(s)-->
+
+        <h1>Form Data</h1>
+        <form>           
+            <!--The for attribute value must match the id. The is so
+            that when a user clicks on the label, the mouse cursor would
+             immediately be focused on the screen-->
+            <label for="fname">First Name</label> <!--This creates a label-->
+
+            <!--The creates a textbox-->
+            <input type="text" placeholder="Enter First Name" id="fname"> 
+            
+            <br><br>
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname"> 
+         
+            <br><br>
+
+            <label for="cars">Number of Cars own?</label>
+            <input type="number" id="cars"> <!--Creates a textbox that only allowed users to choose numbers-->
+
+            <br><br>
+
+            <!-- For the form controls you give type in, give a vaule attribute.  
+            This is necessary because when the form is submitted
+            to the server, the data well be send with the intention of
+            storing it into a database!!!!-->
+
+            <label>Sex</label>
+
+            <label for="male">Male</label> 
+            <input type="radio" id="male" name="sex" value="Female">
+            <!--Assiging both radio buttons a name attribute, this will associate them
+            with each other(group them together),thus the user would not
+            be able to choose both -->
+            <label for="female">Female</label> 
+            <input type="radio" id="female" name="sex" value="Female">
+
+            <br><br>
+
+            
+            <label>Do you want to subscribe to your newsletter</label>
+
+            <label for="y">Yes</label> 
+            <input type="radio" id="y" name="newsAnswer" value="Yes"><!-- Creates a radio button-->
+
+            <label for="n">No</label> 
+            <input type="radio" id="n" name="newsAnswer" value="No"><!-- Creates a radio button-->
+
+            <br><br>
+
+           
+            <label>Fav Hobbies :</label> <br>
+
+            <label for="code"> Codding </label>
+            <input id="code" type="checkbox" value="Codding" name="hobby"> <br>
+
+            <label for="cricket"> Cricket </label>
+            <input id="cricket" type="checkbox" value="Cricket" name="hobby"><br>
+
+            <label for="basketball"> Basketball </label>
+            <input  for="basketball" type="checkbox" value="Basketball" name="hobby" >
+
+            <br><br>
+           
+            <label>Date of Birth</label>
+            <input type="date" >  <!-- This creates a date picker-->
+
+            <br><br>
+
+          
+            <label for="psswd">Password</label>
+            <input id="psswd" type="password" > <!-- This creates a password field-->
+
+            <br><br>
+
+            
+            <label for="email">Email</label>
+            <input type="email" id="email"> <!-- Email Field.Email fields are also text boxes-->
+
+            <br><br>
+
+            <label>Choose Country</label>
+
+            <!--This creates a drop down list-->
+            <select>
+
+                <!--The option tag represents an option within the dropdown list-->
+                <option value="no value">Please select a country</option>
+                <option value="TnT">Trinidad and Tobago</option>
+                <option value="Canada">Canada</option>
+                <option value="USA">US</option>
+            </select>
+
+            <br><br>
+
+            <label for="comment">Leave your comment here</label>
+
+            <!--This creates a multi-line text box-->
+            <textarea id="comment"></textarea>
+
+            <br><br>
+
+            
+            <!--This creates a submit button. A submit button submits a form.
+            The data entered into a form will be sent to the sever to be stored
+            in a database-->
+            <input type="submit" value="Sign Up"> <!--The value attribute represent what is written on the button-->
+
+            <!--This creates a reset button. A reset button clear the data enterd
+            into a form.-->
+            <input type="reset" value="Clear Form">
+
+            <!--This creates a anonymous button. An anonymous button does some sort
+            of actoin when the button is pressed or click-->
+            <input type="button" value="Click Me">       
+         </form>
+
+    </body>
+</html>
