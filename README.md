@@ -9,4 +9,7 @@ This project is a basic HTML file overviewing forms & its' number of diferent fo
 * Date pickers
 * Drop-down lists
 * Multi-line text boxes
-* Buttons(Submit, reset and anonymous buttons.)
+* Buttons
+  * Submit
+  * Reset
+  * Anonymous buttons
