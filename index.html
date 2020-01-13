@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Internal CSS</title>
+
+        <!-- 
+        
+        An internal CSS is used to define a style for a single HTML page.
+
+        An internal CSS is defined in the <head> section of an HTML page,
+             within a <style> element:
+        -->
+        <style>
+
+               /*
+                    This below code transforms all h1s to uppercase
+               */
+                h1{
+                    text-transform: uppercase;
+                }
+
+
+                /*
+                    The below changes the font-type and sets the background color to yellow
+                    of the element that has the id first-section
+                */  
+
+                #first-section
+                {
+                   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                   background-color: #ffff00;
+                }
+
+
+                /*
+                    underline the words of any elements with the class underline-words
+                */
+                .underline-words
+                {
+                    text-decoration: underline;
+                }
+
+                 /*
+                    Bold the words of any elements with the class bold-words
+                */
+
+                .bold-words
+                {
+                    font-weight: bold;
+                }
+
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+
+    
+        <section id="first-section">
+            <h2>Internal Css </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, at?
+            </p>
+        </section>
+
+
+        <section id="second-section">
+            <h2>Internal CSS continue</h2>
+            <p>
+                <!--THis element has two classes. One is called underline-words and the other is bold words-->
+                <span class="underline-words bold-words">Lorem, ipsum dolor sit</span> amet consectetur adipisicing elit. Nemo veritatis repellat sequi natus fugiat, nam explicabo impedit magnam facere, officiis porro doloribus, alias culpa laborum autem consequuntur perferendis. Repellendus, aliquid.
+            </p>
+        </section>
+
+    </body>
+</html>
