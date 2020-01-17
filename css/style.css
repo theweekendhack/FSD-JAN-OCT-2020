@@ -1,0 +1,59 @@
+
+/*** RULES TO DEMONSTRATE SPECIFICITY************/
+
+/*all of these below is to demonstrate specificity*/
+#font-change /* this will win because ID has the higgest precedence*/
+{
+    background-color: #ff0000;
+}
+
+.changes /* if there was no id then the class rule would have been applied
+because classes come after ID in the  precedence hierarchy*/
+{
+    background-color: #00ff00;
+}
+
+main /* of the 3 selectors, the element select has the lowest precedence hierarchy*/
+{
+    background-color: #cccccc; 
+
+}
+
+
+/*css reset*/
+*
+{
+    padding:0;
+    margin:0;
+}
+
+/* styles*/
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+
+main
+{
+    padding:16px 32px;
+}
+
+main > section > h1
+{
+    margin-bottom: 16px;
+}
+
+main section 
+{
+    margin-bottom: 32px;
+}
+
+
+main 
+{
+    background-color: #b32da7 !important /*When an important rule is used 
+    on a style declaration, this declaration overrides any other declarations. */
+
+}
