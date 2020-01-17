@@ -5,7 +5,7 @@ Selectors can be a word and/or a pattern used to select an element element(s) fr
 
 Types of Selectors 
 <ul>
-      <li>Element selector-- ** tagname**</li>
+      <li>Element selector-- **tagname**</li>
       <li>ID selector -- #idname </li>
       <li>Class -- .classname </li>
       <li>Universal-- * </li>
