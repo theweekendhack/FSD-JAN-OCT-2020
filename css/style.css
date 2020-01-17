@@ -1,0 +1,50 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size:1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header
+{
+    height:100vh; /*set the height of the header to 100% of the viewing port*/
+    position: relative;
+    z-index:1; 
+}
+
+header div:nth-child(2)
+{
+    text-align: center;
+}
+
+header h1
+{
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+
+
+header > div > img
+{
+    height:200px;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+}
+#overlay
+{
+    position: absolute; /*position it to be within thee header without affecting the content*/
+    width:100%; /*set it to be 100% of it's parent(in this case the header)*/
+    height: 100%;    /*set it to be 100% of it's parent (in this case the header)*/
+    background-image: url("../img/birthday-bg.jpg"); /*add a backround image*/
+    background-repeat: no-repeat; /*remove the repeating default behavior*/
+    background-position: center center; /*center it both horizontally and vertically*/
+    background-size:cover; /*force the background to cover the page*/
+    opacity: 0.4; /*applies transparency */
+}
