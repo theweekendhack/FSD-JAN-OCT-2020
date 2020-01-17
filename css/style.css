@@ -1,0 +1,120 @@
+/******Element selector***/
+/*** select all navs**/
+nav  
+{
+    background-color:#cc508a;
+}
+
+/*** select the main**/
+main
+{
+    padding:16px 32px;
+    background-color: #50ccb1;
+}
+
+
+/*****ID selector ***/
+
+/***select the element with the id main-heading**/
+#main-heading
+{
+    color:#ff0000;
+}
+/*****class selector ***/
+
+/***select the elements with the class bold**/
+.bold
+{
+   font-weight: bold;
+}
+
+/***select the elements with the class underline**/
+.underline
+{
+    text-decoration: underline;
+}
+
+
+/***select the elements with the class italize**/
+.italize
+{
+    font-style:italic;
+
+}
+
+/*universal selctor*/
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+/*****Attribute selector ***/
+
+/***select the input elements with the attribute text and password**/
+input[type="text"], input[type="password"]
+{
+    border:2px solid #cc508a;
+}
+
+/****pseudo-classes selector ***/
+/** **/
+a:hover
+{
+    text-decoration: none;
+}
+
+/****pseudo-elements selector ***/
+#main-heading::first-letter
+{
+    font-size:3rem;
+}
+
+/***** 
+Combinators
+    1. Child (a > b)
+    2 Descendent (a b)
+    3 Ajacent Sibling (a + b)
+    4 General Sibling ( a ~ b)
+*****/
+
+/** Child Combinator**/
+
+
+/***select the 1st section element within the main**/
+main > section:nth-child(1)
+{
+    background-color:#835252;
+}
+
+/***select the 2nd section element within the main**/
+main > section:nth-child(2)
+{
+    background-color:#ff0000;
+}
+
+/** Descendent Combinator**/
+/***select all li elements that are nested within the header (directly or indirectly)**/
+header li 
+{
+    display:inline-block;
+    padding:32px 16px;
+}
+/** Adjacent Sibling**/
+/*Select all the ul tags that are adjacent to ps within section*/
+section > p + ul 
+{
+    padding:0 32px
+}
+
+/** General Sibling**/
+
+
+
+
+
+
+
+
