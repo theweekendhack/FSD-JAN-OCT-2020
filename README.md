@@ -6,18 +6,18 @@ Selectors can be a word and/or a pattern used to select an element element(s) fr
 Types of Selectors 
 <ul>
       <li>Element selector-- <strong>tagname</strong></li>
-      <li>ID selector -- #idname </li>
-      <li>Class -- .classname </li>
-      <li>Universal-- * </li>
-      <li>Attribute -- tagname[attributename="value"]</li>
-      <li>Pseudo-class-- selector:psuedoclass </li>
-      <li>Pseudo-element selector::psuedoclass </li>
+      <li>ID selector -- <strong>#idname</strong> </li>
+      <li>Class -- <strong>.classname</strong> </li>
+      <li>Universal-- <strong>*</strong> </li>
+      <li>Attribute -- <strong>tagname[attributename="value"]</strong></li>
+      <li>Pseudo-class-- <strong>selector:psuedoclass</strong> </li>
+      <li>Pseudo-element <strong>selector::psuedoclass</strong> </li>
       <li> Combinators
           <ol>
-              <li>Child Combinator (a > b)</li>
-              <li>Descendant selector(a b)</li>
-              <li>Adjacent sibling selector (a + b)</li>
-              <li>General sibling selector (a ~ b)</li>
+              <li>Child Combinator <strong>(a > b)</strong></li>
+              <li>Descendant selector <strong>(a b)</strong></li>
+              <li>Adjacent sibling selector <strong> (a + b)</strong></li>
+              <li>General sibling selector <strong>(a ~ b)</strong></li>
           </ol>
       </li>
   </ul>
