@@ -1,0 +1,21 @@
+#first-section
+{
+    /*creates a grid of two columns*/
+    display:grid; 
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;   /*add a space between */
+    /*justify-items: center;*//*this moves all grid items inside the grid to the center*/
+}
+
+#box-1
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+
+}
+
+#box-2
+{
+    justify-self: center; /*this moves the selected grid item inside the grid to the center*/
+}
